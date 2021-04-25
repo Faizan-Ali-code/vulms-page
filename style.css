@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+     box-sizing: border-box;
+     width: 100vh;
+     font-family: Arial, Helvetica, sans-serif;
+     height: 100vh;
+     background-image: url("dirty-2042285_1920.jpg");
+     background-size: cover;
+
+}
+.login-sec{
+    /* width: 50vh; */
+    float: left;
+    background-color: white;
+    height:100%;
+    width: 700px;
+
+
+}
+
+#lms{
+    margin: 50px 250px 40px;
+}
+.stu{
+    display: block;
+    padding: 10px;
+    width: 320px;
+    margin-left: 200px;
+    margin-top: 10px;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.stu:focus{
+    outline-color:  grey;
+   
+}
+#samll-l{
+    margin-left:200px ;
+    margin-right: 90px;
+    font-size: 15px;
+    color: grey;
+}
+#samll-r{
+    font-size: 15px;
+    color: grey;
+}
+#sign{
+    display: block;
+    width: 88px;
+    margin: 30px auto;
+    background-color: navy;
+    color: white;
+    padding: 14px 20px;
+    
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+
+}
+.notice{
+    margin-left: 200px;
+    margin-top: 20px;
+    color: grey;
+}
+
+.left-sec h1{
+    width: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    margin: 150px 20px 700px 900px;
+    color: white;
+}
